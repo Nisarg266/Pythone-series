@@ -1,0 +1,622 @@
+[
+    {
+        "label": "marks_utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "marks_utils",
+        "description": "marks_utils",
+        "detail": "marks_utils",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "nisarg",
+        "description": "nisarg",
+        "isExtraImport": true,
+        "detail": "nisarg",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "num = 10  # Whole numbers, no decimal point\nprint(\"num:\", num, \"| type:\", type(num))\n# 2. float\nprice = 99.99  # Numbers with decimal point\nprint(\"price:\", price, \"| type:\", type(price))\n# 3. str (String)\nname = \"Alice\"  # Text data, enclosed in quotes\nprint(\"name:\", name, \"| type:\", type(name))\n# 4. bool (Boolean)\nis_active = True  # Only True or False values",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "price = 99.99  # Numbers with decimal point\nprint(\"price:\", price, \"| type:\", type(price))\n# 3. str (String)\nname = \"Alice\"  # Text data, enclosed in quotes\nprint(\"name:\", name, \"| type:\", type(name))\n# 4. bool (Boolean)\nis_active = True  # Only True or False values\nprint(\"is_active:\", is_active, \"| type:\", type(is_active))\n# 5. list\nfruits = [\"apple\", \"banana\", \"cherry\"]  # Ordered collection, can change, use []",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "name = \"Alice\"  # Text data, enclosed in quotes\nprint(\"name:\", name, \"| type:\", type(name))\n# 4. bool (Boolean)\nis_active = True  # Only True or False values\nprint(\"is_active:\", is_active, \"| type:\", type(is_active))\n# 5. list\nfruits = [\"apple\", \"banana\", \"cherry\"]  # Ordered collection, can change, use []\nprint(\"fruits:\", fruits, \"| type:\", type(fruits))\n# 6. tuple\ncoordinates = (10, 20)  # Ordered collection, cannot change, use ()",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "is_active",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "is_active = True  # Only True or False values\nprint(\"is_active:\", is_active, \"| type:\", type(is_active))\n# 5. list\nfruits = [\"apple\", \"banana\", \"cherry\"]  # Ordered collection, can change, use []\nprint(\"fruits:\", fruits, \"| type:\", type(fruits))\n# 6. tuple\ncoordinates = (10, 20)  # Ordered collection, cannot change, use ()\nprint(\"coordinates:\", coordinates, \"| type:\", type(coordinates))\n# 7. set\nunique_numbers = {1, 2, 3}  # Unordered, unique items, use {}",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]  # Ordered collection, can change, use []\nprint(\"fruits:\", fruits, \"| type:\", type(fruits))\n# 6. tuple\ncoordinates = (10, 20)  # Ordered collection, cannot change, use ()\nprint(\"coordinates:\", coordinates, \"| type:\", type(coordinates))\n# 7. set\nunique_numbers = {1, 2, 3}  # Unordered, unique items, use {}\nprint(\"unique_numbers:\", unique_numbers, \"| type:\", type(unique_numbers))\n# 8. dict (Dictionary)\nstudent = {\"name\": \"Bob\", \"age\": 21}  # Key-value pairs, use {}",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "coordinates",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "coordinates = (10, 20)  # Ordered collection, cannot change, use ()\nprint(\"coordinates:\", coordinates, \"| type:\", type(coordinates))\n# 7. set\nunique_numbers = {1, 2, 3}  # Unordered, unique items, use {}\nprint(\"unique_numbers:\", unique_numbers, \"| type:\", type(unique_numbers))\n# 8. dict (Dictionary)\nstudent = {\"name\": \"Bob\", \"age\": 21}  # Key-value pairs, use {}\nprint(\"student:\", student, \"| type:\", type(student))\n# 9. NoneType\nresult = None  # Represents no value",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "unique_numbers",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "unique_numbers = {1, 2, 3}  # Unordered, unique items, use {}\nprint(\"unique_numbers:\", unique_numbers, \"| type:\", type(unique_numbers))\n# 8. dict (Dictionary)\nstudent = {\"name\": \"Bob\", \"age\": 21}  # Key-value pairs, use {}\nprint(\"student:\", student, \"| type:\", type(student))\n# 9. NoneType\nresult = None  # Represents no value\nprint(\"result:\", result, \"| type:\", type(result))",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "student = {\"name\": \"Bob\", \"age\": 21}  # Key-value pairs, use {}\nprint(\"student:\", student, \"| type:\", type(student))\n# 9. NoneType\nresult = None  # Represents no value\nprint(\"result:\", result, \"| type:\", type(result))",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Data Types.DataTypes",
+        "description": "Data Types.DataTypes",
+        "peekOfCode": "result = None  # Represents no value\nprint(\"result:\", result, \"| type:\", type(result))",
+        "detail": "Data Types.DataTypes",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = str(\"Hello World\")  # str\nprint(type(x), x)       # <class 'str'> Hello World\n# Integer\nx = int(20)             # int\nprint(type(x), x)       # <class 'int'> 20\n# Float\nx = float(20.5)         # float\nprint(type(x), x)       # <class 'float'> 20.5\n# Complex Number\nx = complex(1j)         # complex",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = int(20)             # int\nprint(type(x), x)       # <class 'int'> 20\n# Float\nx = float(20.5)         # float\nprint(type(x), x)       # <class 'float'> 20.5\n# Complex Number\nx = complex(1j)         # complex\nprint(type(x), x)       # <class 'complex'> 1j\n# List\nx = list((\"apple\", \"banana\", \"cherry\"))  # list",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = float(20.5)         # float\nprint(type(x), x)       # <class 'float'> 20.5\n# Complex Number\nx = complex(1j)         # complex\nprint(type(x), x)       # <class 'complex'> 1j\n# List\nx = list((\"apple\", \"banana\", \"cherry\"))  # list\nprint(type(x), x)                        # <class 'list'> ['apple', 'banana', 'cherry']\n# Tuple\nx = tuple((\"apple\", \"banana\", \"cherry\")) # tuple",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = complex(1j)         # complex\nprint(type(x), x)       # <class 'complex'> 1j\n# List\nx = list((\"apple\", \"banana\", \"cherry\"))  # list\nprint(type(x), x)                        # <class 'list'> ['apple', 'banana', 'cherry']\n# Tuple\nx = tuple((\"apple\", \"banana\", \"cherry\")) # tuple\nprint(type(x), x)                        # <class 'tuple'> ('apple', 'banana', 'cherry')\n# Range\nx = range(6)             # range",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = list((\"apple\", \"banana\", \"cherry\"))  # list\nprint(type(x), x)                        # <class 'list'> ['apple', 'banana', 'cherry']\n# Tuple\nx = tuple((\"apple\", \"banana\", \"cherry\")) # tuple\nprint(type(x), x)                        # <class 'tuple'> ('apple', 'banana', 'cherry')\n# Range\nx = range(6)             # range\nprint(type(x), list(x))  # <class 'range'> [0, 1, 2, 3, 4, 5]\n# Dictionary\nx = dict(name=\"John\", age=36)  # dict",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = tuple((\"apple\", \"banana\", \"cherry\")) # tuple\nprint(type(x), x)                        # <class 'tuple'> ('apple', 'banana', 'cherry')\n# Range\nx = range(6)             # range\nprint(type(x), list(x))  # <class 'range'> [0, 1, 2, 3, 4, 5]\n# Dictionary\nx = dict(name=\"John\", age=36)  # dict\nprint(type(x), x)              # <class 'dict'> {'name': 'John', 'age': 36}\n# Set\nx = set((\"apple\", \"banana\", \"cherry\"))  # set",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = range(6)             # range\nprint(type(x), list(x))  # <class 'range'> [0, 1, 2, 3, 4, 5]\n# Dictionary\nx = dict(name=\"John\", age=36)  # dict\nprint(type(x), x)              # <class 'dict'> {'name': 'John', 'age': 36}\n# Set\nx = set((\"apple\", \"banana\", \"cherry\"))  # set\nprint(type(x), x)                       # <class 'set'> {'banana', 'cherry', 'apple'}\n# Frozenset\nx = frozenset((\"apple\", \"banana\", \"cherry\"))  # frozenset",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = dict(name=\"John\", age=36)  # dict\nprint(type(x), x)              # <class 'dict'> {'name': 'John', 'age': 36}\n# Set\nx = set((\"apple\", \"banana\", \"cherry\"))  # set\nprint(type(x), x)                       # <class 'set'> {'banana', 'cherry', 'apple'}\n# Frozenset\nx = frozenset((\"apple\", \"banana\", \"cherry\"))  # frozenset\nprint(type(x), x)                             # <class 'frozenset'> frozenset({'banana', 'cherry', 'apple'})\n# Boolean\nx = bool(5)           # bool",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = set((\"apple\", \"banana\", \"cherry\"))  # set\nprint(type(x), x)                       # <class 'set'> {'banana', 'cherry', 'apple'}\n# Frozenset\nx = frozenset((\"apple\", \"banana\", \"cherry\"))  # frozenset\nprint(type(x), x)                             # <class 'frozenset'> frozenset({'banana', 'cherry', 'apple'})\n# Boolean\nx = bool(5)           # bool\nprint(type(x), x)     # <class 'bool'> True\n# Bytes\nx = bytes(5)          # bytes",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = frozenset((\"apple\", \"banana\", \"cherry\"))  # frozenset\nprint(type(x), x)                             # <class 'frozenset'> frozenset({'banana', 'cherry', 'apple'})\n# Boolean\nx = bool(5)           # bool\nprint(type(x), x)     # <class 'bool'> True\n# Bytes\nx = bytes(5)          # bytes\nprint(type(x), x)     # <class 'bytes'> b'\\x00\\x00\\x00\\x00\\x00'\n# Bytearray\nx = bytearray(5)      # bytearray",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = bool(5)           # bool\nprint(type(x), x)     # <class 'bool'> True\n# Bytes\nx = bytes(5)          # bytes\nprint(type(x), x)     # <class 'bytes'> b'\\x00\\x00\\x00\\x00\\x00'\n# Bytearray\nx = bytearray(5)      # bytearray\nprint(type(x), x)     # <class 'bytearray'> bytearray(b'\\x00\\x00\\x00\\x00\\x00')\n# Memoryview\nx = memoryview(bytes(5))  # memoryview",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = bytes(5)          # bytes\nprint(type(x), x)     # <class 'bytes'> b'\\x00\\x00\\x00\\x00\\x00'\n# Bytearray\nx = bytearray(5)      # bytearray\nprint(type(x), x)     # <class 'bytearray'> bytearray(b'\\x00\\x00\\x00\\x00\\x00')\n# Memoryview\nx = memoryview(bytes(5))  # memoryview\nprint(type(x), x)         # <class 'memoryview'> <memory at 0x...>",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = bytearray(5)      # bytearray\nprint(type(x), x)     # <class 'bytearray'> bytearray(b'\\x00\\x00\\x00\\x00\\x00')\n# Memoryview\nx = memoryview(bytes(5))  # memoryview\nprint(type(x), x)         # <class 'memoryview'> <memory at 0x...>",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Data Types.Specific Data Type",
+        "description": "Data Types.Specific Data Type",
+        "peekOfCode": "x = memoryview(bytes(5))  # memoryview\nprint(type(x), x)         # <class 'memoryview'> <memory at 0x...>",
+        "detail": "Data Types.Specific Data Type",
+        "documentation": {}
+    },
+    {
+        "label": "dic",
+        "kind": 5,
+        "importPath": "Dictionaries.dictionaries",
+        "description": "Dictionaries.dictionaries",
+        "peekOfCode": "dic = {\n    'name': \"nisarg\",\n    3: \"painapple\",\n    4: \"banana\",\n    2: \"mango\",\n    5: \"apple\",  \n}\n# for value in dic.keys():\n#     print(value,dic[value])\n#     print(dic[value])",
+        "detail": "Dictionaries.dictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Dictionaries.dictionaries",
+        "description": "Dictionaries.dictionaries",
+        "peekOfCode": "text = \"hello world hello python world nisarg nisarg    \"\nwords = text.split()\nword_count = {}\nfor word in words :\n    word_count[word] = word_count.get(word,0) + 1\nprint(word_count)\n#?    સારાંશ (Summary)\n#?    મેથડ\tવર્ણન\n#*    keys()\tસૌ કી ની લિસ્ટ\n#*    values()\tસૌ વેલ્યુ ની લિસ્ટ",
+        "detail": "Dictionaries.dictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "Dictionaries.dictionaries",
+        "description": "Dictionaries.dictionaries",
+        "peekOfCode": "words = text.split()\nword_count = {}\nfor word in words :\n    word_count[word] = word_count.get(word,0) + 1\nprint(word_count)\n#?    સારાંશ (Summary)\n#?    મેથડ\tવર્ણન\n#*    keys()\tસૌ કી ની લિસ્ટ\n#*    values()\tસૌ વેલ્યુ ની લિસ્ટ\n#*    items()\t(key, value) પેર્સ",
+        "detail": "Dictionaries.dictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "word_count",
+        "kind": 5,
+        "importPath": "Dictionaries.dictionaries",
+        "description": "Dictionaries.dictionaries",
+        "peekOfCode": "word_count = {}\nfor word in words :\n    word_count[word] = word_count.get(word,0) + 1\nprint(word_count)\n#?    સારાંશ (Summary)\n#?    મેથડ\tવર્ણન\n#*    keys()\tસૌ કી ની લિસ્ટ\n#*    values()\tસૌ વેલ્યુ ની લિસ્ટ\n#*    items()\t(key, value) પેર્સ\n#*    get(key)\tવેલ્યુ મેળવો (ન મળે તો None)",
+        "detail": "Dictionaries.dictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "squere",
+        "kind": 2,
+        "importPath": "Docstring.docstring",
+        "description": "Docstring.docstring",
+        "peekOfCode": "def squere(n):\n    ''' hello my name is nisarg'''\n    print(2 * 2)\nsquere(5)\nprint(squere.__doc__)",
+        "detail": "Docstring.docstring",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Enumerate.enumerate",
+        "description": "Enumerate.enumerate",
+        "peekOfCode": "fruits = ['apple', 'paiapple', 'banana']\nfor i, val in enumerate(fruits):\n    if val == 'apple':\n        print(\"Banana found at index:\", i)\n    else:\n        print(f\"{val} is not the name we are looking for\")\n#! basic metrix method \n# matrix = [\n#     [1, 2],\n#     [3, 4]",
+        "detail": "Enumerate.enumerate",
+        "documentation": {}
+    },
+    {
+        "label": "func1",
+        "kind": 2,
+        "importPath": "exception Error Handling.error",
+        "description": "exception Error Handling.error",
+        "peekOfCode": "def func1():\n    try:\n        l = [1,2,3,4,5]\n        i = int(input(\"enter your value :-\"))\n        print(l[i])\n        return 1\n    except:\n        print(\"some error occurred\")\n        return 0\n    finally:",
+        "detail": "exception Error Handling.error",
+        "documentation": {}
+    },
+    {
+        "label": "check_age",
+        "kind": 2,
+        "importPath": "exception Error Handling.RaiseError",
+        "description": "exception Error Handling.RaiseError",
+        "peekOfCode": "def check_age(age):\n    if age < 18:\n        raise ValueError(\"your must be 18 or older\")\n    return \"your can vate.\"\ntry:\n    print(check_age(15))\nexcept ValueError as e:\n    print(\"Error :-\",e)",
+        "detail": "exception Error Handling.RaiseError",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "if __name__ == __main__in Python.main",
+        "description": "if __name__ == __main__in Python.main",
+        "peekOfCode": "marks = [85, 75, 95, 80]\nprint(\"Student Report:\")\nprint(\"Total:\", marks_utils.total_marks(marks))     # Output: 335\nprint(\"Average:\", marks_utils.average_marks(marks)) # Output: 83.75",
+        "detail": "if __name__ == __main__in Python.main",
+        "documentation": {}
+    },
+    {
+        "label": "total_marks",
+        "kind": 2,
+        "importPath": "if __name__ == __main__in Python.second",
+        "description": "if __name__ == __main__in Python.second",
+        "peekOfCode": "def total_marks(marks):\n    return sum(marks)\ndef average_marks(marks):\n    return sum(marks) / len(marks)\nprint(\"marks_utils loaded successfully!\")\nif __name__ == \"__main__\":\n    # Testing purpose\n    print(\"Testing functions...\")\n    sample = [80, 90, 70]\n    print(\"Total:\", total_marks(sample))     # Output: 240",
+        "detail": "if __name__ == __main__in Python.second",
+        "documentation": {}
+    },
+    {
+        "label": "average_marks",
+        "kind": 2,
+        "importPath": "if __name__ == __main__in Python.second",
+        "description": "if __name__ == __main__in Python.second",
+        "peekOfCode": "def average_marks(marks):\n    return sum(marks) / len(marks)\nprint(\"marks_utils loaded successfully!\")\nif __name__ == \"__main__\":\n    # Testing purpose\n    print(\"Testing functions...\")\n    sample = [80, 90, 70]\n    print(\"Total:\", total_marks(sample))     # Output: 240\n    print(\"Average:\", average_marks(sample)) # Output: 80.0",
+        "detail": "if __name__ == __main__in Python.second",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "if_else_Short_method.short",
+        "description": "if_else_Short_method.short",
+        "peekOfCode": "a = 100\nb = 200 \nprint(\"yest thsi is right\") if a > b else print(\"no this is wrong\")\nc = 9 if a> b else 0\nprint(c)",
+        "detail": "if_else_Short_method.short",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "if_else_Short_method.short",
+        "description": "if_else_Short_method.short",
+        "peekOfCode": "b = 200 \nprint(\"yest thsi is right\") if a > b else print(\"no this is wrong\")\nc = 9 if a> b else 0\nprint(c)",
+        "detail": "if_else_Short_method.short",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "if_else_Short_method.short",
+        "description": "if_else_Short_method.short",
+        "peekOfCode": "c = 9 if a> b else 0\nprint(c)",
+        "detail": "if_else_Short_method.short",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 2,
+        "importPath": "import.nisarg",
+        "description": "import.nisarg",
+        "peekOfCode": "def user(name):\n    print(\"hello My name is\",name)\nuser(\"nisarg\")",
+        "detail": "import.nisarg",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "Loop Statement.Break-and-continue",
+        "description": "Loop Statement.Break-and-continue",
+        "peekOfCode": "colors = ['red', 'green', 'blue']\nfor idx, color in enumerate(colors, start=1):\n    print(idx, color)\n# zip: બે iterable સાથે એકસાથે loop\nnames = ['A', 'B', 'C']\nages = [25, 30, 35]\nfor name, age in zip(names, ages):\n    print(f\"{name} is {age} years old\")",
+        "detail": "Loop Statement.Break-and-continue",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "Loop Statement.Break-and-continue",
+        "description": "Loop Statement.Break-and-continue",
+        "peekOfCode": "names = ['A', 'B', 'C']\nages = [25, 30, 35]\nfor name, age in zip(names, ages):\n    print(f\"{name} is {age} years old\")",
+        "detail": "Loop Statement.Break-and-continue",
+        "documentation": {}
+    },
+    {
+        "label": "ages",
+        "kind": 5,
+        "importPath": "Loop Statement.Break-and-continue",
+        "description": "Loop Statement.Break-and-continue",
+        "peekOfCode": "ages = [25, 30, 35]\nfor name, age in zip(names, ages):\n    print(f\"{name} is {age} years old\")",
+        "detail": "Loop Statement.Break-and-continue",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Loop Statement.ForLoop",
+        "description": "Loop Statement.ForLoop",
+        "peekOfCode": "i = 0\nwhile(i <= 5):\n    print(i) \n    i = i + 1\n#! python do while Loop \n# while True:\n#     number = int(input(\"enter your num :-\"))\n#     print(number)\n#     if not number > 0:\n#         break",
+        "detail": "Loop Statement.ForLoop",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Match  case statement.Match",
+        "description": "Match  case statement.Match",
+        "peekOfCode": "x = int(input())\nmatch x: \n    case 0:\n        print(\"your num is zero\" ,x)\n    case 4:\n        print(\"your num is four\" , x)\n    case _ if x!=90: \n        print(\"your num is 90 greatrthen\")\n    case _ if x!=80:\n        print(\"your num is 80 greaterthene \")",
+        "detail": "Match  case statement.Match",
+        "documentation": {}
+    },
+    {
+        "label": "questions",
+        "kind": 5,
+        "importPath": "practice py.3rd",
+        "description": "practice py.3rd",
+        "peekOfCode": "questions = [\n    [\"Which language is primarily used for Android app development?\", \"Python\", \"Java\", \"C#\", \"PHP\", \"None\", 2],\n    [\"What does HTML stand for?\", \"HyperText Markup Language\", \"HighText Machine Language\", \"Hyperlink and Text Markup Language\", \"Home Tool Markup Language\", \"None\", 1],\n    [\"Which company developed the Java programming language?\", \"Microsoft\", \"Apple\", \"Sun Microsystems\", \"Google\", \"None\", 3],\n    [\"What is the extension of Python files?\", \".java\", \".py\", \".txt\", \".cpp\", \"None\", 2],\n    [\"Which language is used for web development and is known for its frameworks like Django and Flask?\", \"Python\", \"Ruby\", \"JavaScript\", \"PHP\", \"None\", 1],\n    [\"Which programming language is known as the backbone of web development?\", \"Python\", \"JavaScript\", \"C++\", \"Ruby\", \"None\", 2],\n    [\"Which database is a NoSQL database?\", \"MySQL\", \"PostgreSQL\", \"MongoDB\", \"SQLite\", \"None\", 3],\n    [\"Which language is used for iOS app development?\", \"Swift\", \"Kotlin\", \"Java\", \"C#\", \"None\", 1],\n]",
+        "detail": "practice py.3rd",
+        "documentation": {}
+    },
+    {
+        "label": "levels",
+        "kind": 5,
+        "importPath": "practice py.3rd",
+        "description": "practice py.3rd",
+        "peekOfCode": "levels = [1000, 2000, 3000, 5000, 10000, 20000, 40000, 80000, 160000, 320000]\nmoney = 0\nfor i in range(0 , len(questions)):\n    questionss = questions[i]\n    print(f\"\\n\\nQuestion of Rs. {levels[i]}\\n\")\n    print(f\"Q. {questionss[0]}\\n\")\n    print(f\" a.{questionss[1]}      b.{questionss[2]}\\n\")\n    print(f\" c.{questionss[3]}      d.{questionss[4]}\\n\")\n    reply = int(input(\" Enter you answer in( 1-4 ) or 0 to quit :- \\n\" ))\n    if (reply == 0):",
+        "detail": "practice py.3rd",
+        "documentation": {}
+    },
+    {
+        "label": "money",
+        "kind": 5,
+        "importPath": "practice py.3rd",
+        "description": "practice py.3rd",
+        "peekOfCode": "money = 0\nfor i in range(0 , len(questions)):\n    questionss = questions[i]\n    print(f\"\\n\\nQuestion of Rs. {levels[i]}\\n\")\n    print(f\"Q. {questionss[0]}\\n\")\n    print(f\" a.{questionss[1]}      b.{questionss[2]}\\n\")\n    print(f\" c.{questionss[3]}      d.{questionss[4]}\\n\")\n    reply = int(input(\" Enter you answer in( 1-4 ) or 0 to quit :- \\n\" ))\n    if (reply == 0):\n        money = levels[i-1]",
+        "detail": "practice py.3rd",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "practice py.first",
+        "description": "practice py.first",
+        "peekOfCode": "user = input(\"enter your name :- \")\ntimestamp = time.strftime('%H:%M:%S')\nhour = int(time.strftime('%H'))\n# hour = 7-00-00\nprint(hour)\nif hour >= 6 and hour < 12:\n    print(\"Good morning\" , user)\nelif hour >= 12 and hour < 17:\n    print(\"Good afternoon Sir!\", user)\nelse:",
+        "detail": "practice py.first",
+        "documentation": {}
+    },
+    {
+        "label": "timestamp",
+        "kind": 5,
+        "importPath": "practice py.first",
+        "description": "practice py.first",
+        "peekOfCode": "timestamp = time.strftime('%H:%M:%S')\nhour = int(time.strftime('%H'))\n# hour = 7-00-00\nprint(hour)\nif hour >= 6 and hour < 12:\n    print(\"Good morning\" , user)\nelif hour >= 12 and hour < 17:\n    print(\"Good afternoon Sir!\", user)\nelse:\n    print(\"Good night Sir!\", user)",
+        "detail": "practice py.first",
+        "documentation": {}
+    },
+    {
+        "label": "hour",
+        "kind": 5,
+        "importPath": "practice py.first",
+        "description": "practice py.first",
+        "peekOfCode": "hour = int(time.strftime('%H'))\n# hour = 7-00-00\nprint(hour)\nif hour >= 6 and hour < 12:\n    print(\"Good morning\" , user)\nelif hour >= 12 and hour < 17:\n    print(\"Good afternoon Sir!\", user)\nelse:\n    print(\"Good night Sir!\", user)",
+        "detail": "practice py.first",
+        "documentation": {}
+    },
+    {
+        "label": "UserNmae",
+        "kind": 5,
+        "importPath": "practice py.second",
+        "description": "practice py.second",
+        "peekOfCode": "UserNmae = input(\"hello sir Enter your name :-\")\nage = int(input(\"hello sir Enter your name :-\"))\nprint(UserNmae)\nprint(age)",
+        "detail": "practice py.second",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "practice py.second",
+        "description": "practice py.second",
+        "peekOfCode": "age = int(input(\"hello sir Enter your name :-\"))\nprint(UserNmae)\nprint(age)",
+        "detail": "practice py.second",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"hello world\"\n# print(text.replace(\"world\", \"Nisarg\"))  # hello Nisarg\n# 📌 Use: string modify કરવા.\n#! 12. split(sep)\n# 👉 String → List. Default space.\ntext = \"a,b,c\"\n# print(text.split(\",\"))  # ['a', 'b', 'c']\n# 📌 Use: CSV, logs, inputs ટુકડા કરવા.\n#! 13. rsplit(sep, max)\n# 👉 Right side થી split કરે છે.",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"a,b,c\"\n# print(text.split(\",\"))  # ['a', 'b', 'c']\n# 📌 Use: CSV, logs, inputs ટુકડા કરવા.\n#! 13. rsplit(sep, max)\n# 👉 Right side થી split કરે છે.\n# text = \"a,b,c,d,e,f,g,i,j,k,l,m,o,p,q,r\"\n# print(text.rsplit(\",\", 3))  # ['a,b', 'c']\n# print(text)\n# 📌 Use: last value અલગ કરવાની જરૂર હોય ત્યારે.\n# ! 14. splitlines()",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"line1\\nline2\"\n# print(text.splitlines())  # ['line1', 'line2']\n# 📌 Use: files read કરવા.\n# ! 15. join(iterable)\n# 👉 List → String\nwords = [\"my\", \"name\", \"is\", \"Nisarg\"]\n# print(\" \".join(words))  # my name is Nisarg\n# 📌 Use: words ને sentenceમાં ફેરવવા.\n# 🔹 Part 6: Strip Methods\n# ! 16. strip()",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "words = [\"my\", \"name\", \"is\", \"Nisarg\"]\n# print(\" \".join(words))  # my name is Nisarg\n# 📌 Use: words ને sentenceમાં ફેરવવા.\n# 🔹 Part 6: Strip Methods\n# ! 16. strip()\n# 👉 આગળ અને પાછળ whitespace દૂર કરે છે.\ntext = \"  hello  \"\n# print(text.strip())  # \"hello\"\n# ! 17. lstrip()\n# 👉 Left space દૂર કરે છે.",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"  hello  \"\n# print(text.strip())  # \"hello\"\n# ! 17. lstrip()\n# 👉 Left space દૂર કરે છે.\n# print(\"   hello\".lstrip())  # \"hello\"\n# ! 18. rstrip()\n# 👉 Right space દૂર કરે છે.\n# print(\"hello   \".rstrip())  # \"hello\"\n# 📌 Use: clean inputs before save.\n# 🔹 Part 7: Formatting Methods",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "name = \"Nisarg\"\n# print(\"My name is {}\".format(name))  # My name is Nisarg\n# ! 20. format_map(dict)\n# 👉 Dictionary values મુકે છે.\ndata = {'name': 'Nisarg'}\n# print(\"Hello {name}\".format_map(data))  # Hello Nisarg\n# ! 21. f-string (Python 3.6+)\n# 👉 Easiest way to format\nname = \"Nisarg\"\n# print(f\"My name is {name}\")  # My name is Nisarg",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "data = {'name': 'Nisarg'}\n# print(\"Hello {name}\".format_map(data))  # Hello Nisarg\n# ! 21. f-string (Python 3.6+)\n# 👉 Easiest way to format\nname = \"Nisarg\"\n# print(f\"My name is {name}\")  # My name is Nisarg\n# 📌 Use: Modern Python – fast and clean.\n# 🔹 Part 8: Partition Methods\n# ! 22. partition(sep)\n# 👉 First match પર split: (before, sep, after)",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "name = \"Nisarg\"\n# print(f\"My name is {name}\")  # My name is Nisarg\n# 📌 Use: Modern Python – fast and clean.\n# 🔹 Part 8: Partition Methods\n# ! 22. partition(sep)\n# 👉 First match પર split: (before, sep, after)\ntext = \"a-b-c\"\n# print(text.partition(\"-\"))  # ('a', '-', 'b-c')\n# ! 23. rpartition(sep)\n# 👉 Right sideથી split.",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"a-b-c\"\n# print(text.partition(\"-\"))  # ('a', '-', 'b-c')\n# ! 23. rpartition(sep)\n# 👉 Right sideથી split.\ntext = \"a-b-c\"\n# print(text.rpartition(\"-\"))  # ('a-b', '-', 'c')\n# 🔹 Part 9: Remove Prefix/Suffix (Python 3.9+)\n# ! 24. removeprefix(prefix)\n# 👉 String માંથી શરૂઆતનું word કાઢે.\ntext = \"unhappy\"",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"a-b-c\"\n# print(text.rpartition(\"-\"))  # ('a-b', '-', 'c')\n# 🔹 Part 9: Remove Prefix/Suffix (Python 3.9+)\n# ! 24. removeprefix(prefix)\n# 👉 String માંથી શરૂઆતનું word કાઢે.\ntext = \"unhappy\"\n# print(text.removeprefix(\"un\"))  # happy\n# ! 25. removesuffix(suffix)\n# 👉 String ના અંતથી word કાઢે.\ntext = \"file.txt\"",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"unhappy\"\n# print(text.removeprefix(\"un\"))  # happy\n# ! 25. removesuffix(suffix)\n# 👉 String ના અંતથી word કાઢે.\ntext = \"file.txt\"\n# print(text.removesuffix(\".txt\"))  # file\n#! 26 f-string number Methods .2F \n# price = 488.56525\n# print(f\"this is price {price:.2f}\")",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "String Methods.String",
+        "description": "String Methods.String",
+        "peekOfCode": "text = \"file.txt\"\n# print(text.removesuffix(\".txt\"))  # file\n#! 26 f-string number Methods .2F \n# price = 488.56525\n# print(f\"this is price {price:.2f}\")",
+        "detail": "String Methods.String",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Tuples.tuples",
+        "description": "Tuples.tuples",
+        "peekOfCode": "num = {\n    'nisarg': \"panchal\",\n    'nisarg': \"panchal\",\n    'nisarg': \"panchal\",    \n    }\n# num = (1,2,34,5,6,8,1,3,1)\nprint(type(num))\n# #* type of tuples in methods\n#? Tuples Methods\n#! tuple created Examples",
+        "detail": "Tuples.tuples",
+        "documentation": {}
+    }
+]
